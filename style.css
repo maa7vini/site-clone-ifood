@@ -77,7 +77,7 @@ nav {
 }
 
 header {
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -150,7 +150,6 @@ header {
     height: 210px;
     border-radius: 20px;
     background-color: #EA1D2C;
-    position: relative;
 }
 
 .restaurante:hover {
@@ -171,7 +170,6 @@ header {
 }
 
 .restaurante img {
-    position: absolute;
     margin: -13px 150px;
 }
 
@@ -225,4 +223,129 @@ header {
     margin: 10px 20px;
     color: whitesmoke;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.158);
+}
+
+.header-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+    width: 60%;
+}
+
+.bebidas-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bebidas-container p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.bebidas-container:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.bebidas-container:active {
+    transform: scale(1);
+}
+
+.bebidas {
+    height: 50px;
+    width: 170px;
+    background-color: #F6D553;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    border-radius: 10px;
+}
+
+.bebidas img {
+    height: 110px;
+    width: 150px;
+    position: absolute;
+    margin-top: -60px;
+}
+
+.farmacia {
+    height: 50px;
+    width: 170px;
+    background-color: #F9879C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 10px;
+}
+
+.farmacias-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.farmacias-container:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.farmacias-container:active {
+    transform: scale(1);
+}
+
+.farmacias-container p {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.farmacia img {
+    position: absolute;
+    margin-top: -35px;
+}
+
+.pet-shop {
+    height: 50px;
+    width: 170px;
+    background-color: #8c60c5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 10px;
+}
+
+.pet-shop-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pet-shop-container:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.pet-shop-container:active {
+    transform: scale(1);
+}
+
+.pet-shop-container p {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.pet-shop img {
+    position: absolute;
+    margin-top: -28px;
 }
